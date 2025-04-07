@@ -21,13 +21,12 @@ export const StyledTableCell = styled(TableCell)(({ theme }) => ({
   padding: "10px",
   fontWeight: "bold",
   width: "fit-content",
-  backgroundColor: theme.palette.mode === "dark" ? "#3a0a21" : "#fff1f9", // Dark mode contrast color
+  backgroundColor: theme.palette.mode === "dark" ? "#3a0a21" : "#fff1f9",
   // color: theme.palette.mode === "dark" ? "#fff" : "#000", // Ensure text contrast
 }));
 
 export const StyledTableBodyCell = styled(TableCell)({
   padding: "8px",
-  // color: "black",
 });
 
 export const StyledButton = styled(Button)({

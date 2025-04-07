@@ -10,16 +10,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <Box
       sx={{
         width: "100vw",
-        minHeight: "100vh", // Full-screen height
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
-        // justifyContent: "center",
         alignItems: "center",
         backgroundColor: "background.default",
         color: "text.primary",
       }}
     >
-      <Container maxWidth={false} >{children}</Container>
+      <Container disableGutters maxWidth={false}>{children}</Container>
     </Box>
   );
 };
